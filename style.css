@@ -6,7 +6,7 @@
 
 header {
   background-image: url(./img/download.jpg);
-  height: 570px;
+  height: 696px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@ header {
 }
 header p {
   color: white;
-  background-color: red;
+  background-color: #5aa28b;
   width: 358px;
   height: 358px;
   border-radius: 20px;
@@ -54,4 +54,94 @@ header p {
   font-size: 2em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 22px 31px 50px 20px;
+}
+
+main {
+  width: 100%;
+  height: 411px;
+  background-color: #f7f7f7;
+}
+
+main h1 {
+  width: fit-content;
+  padding: 20px 0;
+  border-bottom: 6px solid #e98317;
+  margin: auto;
+  position: relative;
+  top: 30px;
+  color: #074d4c;
+}
+.main-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main p {
+  line-height: 1.5;
+  font-family: cursive;
+}
+main h2 {
+  color: #439da5;
+  font-family: cursive;
+  padding-bottom: 10px;
+}
+
+.first-sec {
+  width: 100%;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgb(96 163 162 / 66%),
+      rgb(72 146 142 / 17%)
+    ),
+    url(./img/doctor.jpg);
+
+  position: relative;
+}
+.cards-container {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cards-container h2 {
+  text-align: center;
+  margin: auto;
+}
+.card {
+  background-color: white;
+  width: 220px;
+  height: 450px;
+  border-radius: 20px;
+}
+.card img {
+  width: 220px;
+  height: 200px;
+  padding: 20px 10px;
+}
+.card h3 {
+  padding-bottom: 25px;
+  padding-left: 15px;
+  color: #66a0aa;
+}
+
+.card p {
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.6;
+  position: relative;
+  bottom: 15px;
+  text-align: center;
+}
+section h2 {
+  color: white;
+  font-family: cursive;
+  font-weight: lighter;
+  position: absolute;
+  top: 10%;
+  right: 22%;
+  transform: translate(-50%, -50%);
 }
