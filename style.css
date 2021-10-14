@@ -3,7 +3,9 @@
   margin: 0;
   padding: 0;
 }
-
+.wrapper {
+  margin-bottom: 10px;
+}
 header {
   background-image: url(./img/download.jpg);
   height: 696px;
@@ -167,4 +169,103 @@ section h2 {
   display: flex;
   justify-content: space-evenly;
   transform: skewY(4deg);
+}
+
+footer {
+  background-image: url(./img/lan.png);
+  width: 100%;
+  height: 400px;
+  position: relative;
+  bottom: 256px;
+  border-radius: 146px 146px 0 0;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+body {
+  height: 13px;
+}
+.foot-frst-cont {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.7;
+  justify-content: flex-start;
+  height: 250px;
+}
+
+.foot-scnd-cont ul {
+  list-style-type: none;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.foot-third-cont ul {
+  list-style-type: none;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.foot-four-cont ul {
+  list-style-type: none;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer h3 {
+  text-align: center;
+  color: #ed7c6a;
+}
+
+.foot-frst-cont h3 {
+  color: white;
+}
+.last-foot-cont {
+  position: absolute;
+  top: 73%;
+  left: 10%;
+}
+.icon-social img {
+  width: 40px;
+  height: 40px;
+}
+.icon-social {
+  position: absolute;
+  top: 82%;
+  left: 10%;
+}
+
+.icon-social a {
+  text-decoration: none;
+  padding: 10px;
+}
+.icon-social img:hover {
+  transform: rotate(360deg);
+  transition: all 1s linear;
+}
+
+q:hover {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border: 10px dashed transparent;
+  transition: all 1s linear;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 40%;
+}
+
+q {
+  font-size: 20px;
+  font-family: cursive;
 }
